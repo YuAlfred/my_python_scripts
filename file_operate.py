@@ -7,8 +7,8 @@ print(os.getcwd())
 rootDir = "./中小学/"
 
 # 创建w
-category = ["小学", "初级中学", "九年一贯制学校", "十二年一贯制学校", "完全中学"]
-for c in category:
+categorys = ["小学", "初级中学", "九年一贯制学校", "十二年一贯制学校", "完全中学"]
+for c in categorys:
     if not os.path.exists(rootDir + c):
         os.makedirs(rootDir + c)
 
